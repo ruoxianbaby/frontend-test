@@ -9,6 +9,9 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].js'
     },
+    devServer: {
+        contentBase: './dist'
+    },
     mode: 'production',
     module: {
         rules: [{
