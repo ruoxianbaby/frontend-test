@@ -1,12 +1,12 @@
-export default class Base{
-    constructor(name, age){
+export default class Base {
+    constructor(name, age) {
         this.name = name
         this.age = age
     }
-    getName(){
+    getName() {
         return this.name
     }
-    static test(){
+    static test() {
         console.log(test)
     }
 }
